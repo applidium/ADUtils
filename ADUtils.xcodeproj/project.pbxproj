@@ -12,6 +12,7 @@
 		2A6E273122B2834500B31F40 /* MKMapViewDequeuingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6E273022B2834500B31F40 /* MKMapViewDequeuingTest.swift */; };
 		42CDDA9C8179B9F9824C64F2 /* Pods_ADUtilsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EFE73855C87585926C10E6 /* Pods_ADUtilsApp.framework */; };
 		47E17214F9A4009CF12359D7 /* Pods_ADUtilsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06C6332AC4E8FBA4930E980 /* Pods_ADUtilsTests.framework */; };
+		490DC68B24B31125000E4B5E /* KeyedArchiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DC68A24B31125000E4B5E /* KeyedArchiverTests.swift */; };
 		491BC3C323C47D29001A3B82 /* StackViewUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BC3C223C47D29001A3B82 /* StackViewUtilsTests.swift */; };
 		494C99852601FA5A00A1E098 /* StackViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C99842601FA5A00A1E098 /* StackViewBuilderTests.swift */; };
 		495682D725DAD8EC00001624 /* UIImageColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495682D625DAD8EC00001624 /* UIImageColorTests.swift */; };
@@ -85,6 +86,7 @@
 		2A6E273022B2834500B31F40 /* MKMapViewDequeuingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewDequeuingTest.swift; sourceTree = "<group>"; };
 		32D3D6308F00B6B8059A24E8 /* Pods-ADUtilsTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADUtilsTests.production.xcconfig"; path = "Pods/Target Support Files/Pods-ADUtilsTests/Pods-ADUtilsTests.production.xcconfig"; sourceTree = "<group>"; };
 		4131DA2D9333046F6E9F313E /* Pods-ADUtilsTests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADUtilsTests.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-ADUtilsTests/Pods-ADUtilsTests.distribution.xcconfig"; sourceTree = "<group>"; };
+		490DC68A24B31125000E4B5E /* KeyedArchiverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedArchiverTests.swift; sourceTree = "<group>"; };
 		491BC3C223C47D29001A3B82 /* StackViewUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewUtilsTests.swift; sourceTree = "<group>"; };
 		494C99842601FA5A00A1E098 /* StackViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewBuilderTests.swift; sourceTree = "<group>"; };
 		495682D625DAD8EC00001624 /* UIImageColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageColorTests.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				E7D5F49C242DF0D90048C0DC /* UITableViewDefaultFooterCellsTests.swift */,
 				496EB3BC246003EA0011B4AD /* NavigationControllerPopCompletionTests.swift */,
 				496EB3C0246008E80011B4AD /* UITableViewHeaderFooterViewLayoutTests.swift */,
+				490DC68A24B31125000E4B5E /* KeyedArchiverTests.swift */,
 				49D1F131216C968E009F87AB /* ADViewLayoutTestsObjc.m */,
 				49D1F133216CCEF4009F87AB /* ADViewLayoutGuideTestsObjc.m */,
 				921907DE21F7AE4400EF2B67 /* ADLayoutGuideTestsObjc.m */,
@@ -645,6 +648,7 @@
 			files = (
 				EC626C6B1FA06DB4001C332C /* DynamicFontTest.swift in Sources */,
 				ECB627061DE33F2200951346 /* AttributedStringTest.swift in Sources */,
+				490DC68B24B31125000E4B5E /* KeyedArchiverTests.swift in Sources */,
 				49F0F21121625E7000FC8AA4 /* StringLocalizationTests.swift in Sources */,
 				49F0F20F21621EB300FC8AA4 /* DeselectableViewTests.swift in Sources */,
 				EC7953421ECB5C7B00404857 /* ViewLayoutTest.swift in Sources */,

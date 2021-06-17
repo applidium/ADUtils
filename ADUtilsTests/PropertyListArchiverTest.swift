@@ -11,7 +11,7 @@ import Quick
 import Nimble
 import ADUtils
 
-struct User : Codable {
+private struct User : Codable {
     let name: String
     let age: Int
 }
