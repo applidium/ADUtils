@@ -11,6 +11,7 @@ target 'ADUtilsTests' do
     pod 'Nimble-Snapshots', '~> 9.0'
     pod 'OCMock', '~> 3.5'
     pod 'ADUtils', :path => './'
+    pod 'ADUtils/Security', :path => './'
 end
 
 post_install do |installer|

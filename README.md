@@ -10,12 +10,18 @@
 ADUtils is a set of helpers, shortcuts or other tools providing simplified interactions with UIKit and more generally with Swift.
 
 - [Features](#features)
+  - [ADUtils](#adutils)
+  - [ADUtils/Security](#adutilssecurity)
 - [Requirements](#requirements)
 - [Communication](#communication)
+- [Installation](#installation)
+  - [CocoaPods](#cocoapods)
 - [Credits](#credits)
 - [License](#license)
 
 ## Features
+
+### ADUtils
 
 - [x] Swift syntaxic sugar (object synchronization [(src)](Modules/ADUtils/AnyObject+Synchronize.swift), array filtering [(src)](Modules/ADUtils/Array+Filter.swift), optionnal unwrapping [(src)](Modules/ADUtils/Optional+Unwrap.swift))
 - [x] Table and Collection views smooth deselection [(src)](Modules/ADUtils/DeselectableView.swift)
@@ -31,6 +37,11 @@ ADUtils is a set of helpers, shortcuts or other tools providing simplified inter
 - [x] On device proxy detection [(src)](Modules/ADUtils_noext/ProxyDetector.swift)
 - [x] Core Graphic geometry utility [(src)](Modules/ADUtils/Geometry+Utilities.swift)
 - [x] Constraints and insets utility [(src)](Modules/ADUtils/UIView+Constraints.swift) [(src)](Modules/ADUtils/UIEdgeInsets+Utilities.swift)
+
+### ADUtils/Security
+
+- [x] Wipe Keychain on first post installation launch [(src)](Modules/ADUtils_security/PostInstallationKeychainCleaner.swift)
+- [x] Encrypt `UserDefaults` with a key stored inside the `Keychain` [(src)](Modules/ADUtils_security/SecureArchiver.swift)
 
 ## Requirements
 
@@ -67,6 +78,8 @@ target '<Your Target Name>' do
     pod 'ADUtils', '~> 10.0'
 end
 ```
+
+The defaults subspec in `ADUtils` encompass swift and objective C regular toolbox, to add the security toolbox specifying `ADUtils/Security` is necessary.
 
 Then, run the following command:
 

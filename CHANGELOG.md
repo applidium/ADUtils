@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Created
+
+- Add a subspec `ADUtils/Security` bundling security related tools.
+- Add `PostInstallationKeychainCleaner` using `UserDefaults`to check if keychain has to be wiped at launch
+- Add `SecureArchiver`, leveraging `CryptoKit` and the `Keychain` to add an encryption layer to `UserDefaults`
+
 ### Fixed
 
 - iOS 14.0+ gives a new property on navigationItem : `backButtonDisplayMode`. `ad_hideBackButtonTitle` now uses it.

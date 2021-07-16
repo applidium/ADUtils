@@ -18,6 +18,10 @@ Pod::Spec.new do |spec|
     subspec.source_files = 'Modules/ADUtils/*.{h,m,swift}'
   end
 
+  spec.subspec 'Security' do |subspec|
+    subspec.source_files = 'Modules/ADUtils_security/*.{h,m,swift}'
+  end
+
   spec.subspec 'objc' do |subspec|
     subspec.dependency 'ADUtils/Swift'
 	subspec.source_files = 'Modules/ADUtils_objc/*.{h,m,swift}'
